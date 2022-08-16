@@ -1,0 +1,56 @@
+.homeWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin-top: 10%;
+}
+
+.homeHeader {
+    font-size: 78px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2vw;
+}
+
+.homeSubHeader {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: -2vw;
+    font-size: 1.35vw;
+}
+
+.homeButton {
+    align-items: center;
+    display: flex;
+    padding: .5vw;
+    display: flex;
+    justify-content: center;
+    margin-top: -1vw;
+}
+
+.homeButton button {
+    border: .15vw solid #0d0f21;
+    background-color: #0d0f21;
+    color: #fffafa;
+    font-weight: bold;
+    border-radius: 10px;
+    height: 4vw;
+    width: 12vw;
+    justify-items: space-between;
+    font-size: 1.5vw;
+}
+
+.homeButton button:hover {
+    border-color: white;
+    color: white;
+}
+
+/*
+#8e2de2
+#4a00e0
+
+*/

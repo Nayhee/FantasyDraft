@@ -1,0 +1,22 @@
+.playerList {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.positionWrapper {
+    padding: .5vw;
+}
+
+.positionTitle {
+    color: white;
+    font-size: 1.5vw;
+    display: flex;
+    justify-content: center;
+}
+
+.table {
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: .25vw;
+}

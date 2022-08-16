@@ -53,3 +53,6 @@ C:\Users\natha\workspace\VS\FantasyDraft\FantasyDraft\obj\Debug\net5.0\refint\Fa
 C:\Users\natha\workspace\VS\FantasyDraft\FantasyDraft\obj\Debug\net5.0\FantasyDraft.pdb
 C:\Users\natha\workspace\VS\FantasyDraft\FantasyDraft\obj\Debug\net5.0\FantasyDraft.genruntimeconfig.cache
 C:\Users\natha\workspace\VS\FantasyDraft\FantasyDraft\obj\Debug\net5.0\ref\FantasyDraft.dll
+C:\Users\natha\workspace\VS\FantasyDraft\FantasyDraft\bin\Debug\net5.0\client\package-lock.json
+C:\Users\natha\workspace\VS\FantasyDraft\FantasyDraft\bin\Debug\net5.0\client\package.json
+C:\Users\natha\workspace\VS\FantasyDraft\FantasyDraft\bin\Debug\net5.0\client\public\manifest.json

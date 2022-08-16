@@ -11,5 +11,7 @@ namespace FantasyDraft.Models
         public string Team { get; set; }
         public string Position { get; set; }
 
+        public int Points { get; set; }
+
     }
 }

@@ -31,7 +31,8 @@ namespace FantasyDraft.Repositories
                                 Name = DbUtils.GetString(reader, "Name"),
                                 Rank = DbUtils.GetInt(reader, "Rank"),
                                 Team = DbUtils.GetString(reader, "Team"),
-                                Position = DbUtils.GetString(reader, "Position")
+                                Position = DbUtils.GetString(reader, "Position"),
+                                Points = DbUtils.GetInt(reader, "Points"),
                             };
                             players.Add(player);
                         }
