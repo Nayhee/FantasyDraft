@@ -4,23 +4,33 @@
     justify-content: center;
     align-content: center;
     flex-direction: column;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 .homeHeader {
-    font-size: 78px;
-    color: white;
+    font-size: 6vw;
+    color: #F0F0F0;
     display: flex;
     justify-content: center;
-    margin-bottom: 2vw;
+    margin-bottom: 2.5vw;
+    font-family: 'Oswald', sans-serif;
 }
 
 .homeSubHeader {
-    color: white;
+    color: #F0F0F0;
     display: flex;
     justify-content: center;
     margin-top: -2vw;
-    font-size: 1.35vw;
+    margin-bottom: 0vw;
+    font-size: 1.7vw;
+    font-style: italic;
+}
+.homeSubHeader2 {
+    color: #DDDDDD;
+    display: flex;
+    justify-content: center;
+    margin: -2.25vw 0vw 1vw 0vw;
+    font-size: 1.25vw;
 }
 
 .homeButton {
@@ -29,13 +39,12 @@
     padding: .5vw;
     display: flex;
     justify-content: center;
-    margin-top: -1vw;
 }
 
 .homeButton button {
-    border: .15vw solid #0d0f21;
-    background-color: #0d0f21;
-    color: #fffafa;
+    border: .15vw solid #F0F0F0;
+    background-color: #2C365E;
+    color: #6CD4FF; 
     font-weight: bold;
     border-radius: 10px;
     height: 4vw;
@@ -45,8 +54,8 @@
 }
 
 .homeButton button:hover {
-    border-color: white;
-    color: white;
+    border-color: #F0F0F0;
+    color: #F0F0F0;
 }
 
 /*

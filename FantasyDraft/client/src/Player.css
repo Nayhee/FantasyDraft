@@ -1,7 +1,7 @@
 .playerList {
-    width: 100%;
+    width: 90%;
     display: flex;
-    justify-content: space-around;
+    margin: auto;
 }
 
 .positionWrapper {
@@ -10,13 +10,40 @@
 
 .positionTitle {
     color: white;
-    font-size: 1.5vw;
+    font-size: 1.25vw;
     display: flex;
     justify-content: center;
+    margin: 1vw 0vw 1vw 0vw;
 }
 
 .table {
     border: 2px solid white;
     border-radius: 10px;
-    padding: .25vw;
+    padding: .25vw 1vw .25vw 1vw;
+    align-items: flex-start;
+    background-color: white;
 }
+
+th {
+   border-bottom: 1px solid black;
+   padding: .5vw;
+}
+
+tr:nth-child(even) {
+    background-color: #F1ECEE;
+}
+
+th {
+    text-align: left;
+}
+td {
+    text-align: center;
+}
+.names {
+    text-align: left;
+}
+
+/*
+#F1ECEE
+
+*/

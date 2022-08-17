@@ -39,18 +39,18 @@ export default function PlayerList() {
                     <Table className="table" responsive bordered striped hover>
                         <thead>
                             <tr>
-                                <th>Rank</th>
-                                <th>Team</th>
+                                <th>Rk</th>
+                                <th>Tm</th>
                                 <th>Name</th>
                                 <th>Points</th>
                             </tr>
                         </thead>
                         <tbody>
                             {QB?.map(qb => 
-                                <tr key={qb?.id}>
+                                <tr className="tableRow" key={qb?.id}>
                                     <td>{qb?.rank}</td>
                                     <td>{qb?.team}</td>
-                                    <td>{qb?.name}</td>
+                                    <td className="names">{qb?.name}</td>
                                     <td>{qb?.points}</td>
                                 </tr>)}
                         </tbody>
@@ -62,8 +62,8 @@ export default function PlayerList() {
                     <Table className="table" responsive bordered striped hover>
                         <thead>
                             <tr>
-                                <th>Rank</th>
-                                <th>Team</th>
+                                <th>Rk</th>
+                                <th>Tm</th>
                                 <th>Name</th>
                                 <th>Points</th>
     
@@ -74,7 +74,7 @@ export default function PlayerList() {
                                 <tr key={rb?.id}>
                                     <td>{rb?.rank}</td>
                                     <td>{rb?.team}</td>
-                                    <td>{rb?.name}</td>
+                                    <td className="names">{rb?.name}</td>
                                     <td>{rb?.points}</td>
                                 </tr>)}
                         </tbody>
@@ -86,8 +86,8 @@ export default function PlayerList() {
                     <Table className="table" responsive bordered striped hover>
                         <thead>
                             <tr>
-                                <th>Rank</th>
-                                <th>Team</th>
+                                <th>Rk</th>
+                                <th>Tm</th>
                                 <th>Name</th>
                                 <th>Points</th>
     
@@ -98,7 +98,7 @@ export default function PlayerList() {
                                 <tr key={wr?.id}>
                                     <td>{wr?.rank}</td>
                                     <td>{wr?.team}</td>
-                                    <td>{wr?.name}</td>
+                                    <td className="names">{wr?.name}</td>
                                     <td>{wr?.points}</td>
                                 </tr>)}
                         </tbody>
@@ -110,8 +110,8 @@ export default function PlayerList() {
                     <Table className="table" responsive bordered striped hover>
                         <thead>
                             <tr>
-                                <th>Rank</th>
-                                <th>Team</th>
+                                <th>Rk</th>
+                                <th>Tm</th>
                                 <th>Name</th>
                                 <th>Points</th>
     
@@ -122,7 +122,7 @@ export default function PlayerList() {
                                 <tr key={te?.id}>
                                     <td>{te?.rank}</td>
                                     <td>{te?.team}</td>
-                                    <td>{te?.name}</td>
+                                    <td className="names">{te?.name}</td>
                                     <td>{te?.points}</td>
                                 </tr>)}
                         </tbody>

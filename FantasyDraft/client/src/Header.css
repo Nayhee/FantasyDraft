@@ -1,0 +1,44 @@
+.navWrapper {
+    width: 100%;
+    border-bottom: 2px solid #F0F0F0;
+}
+
+.navbar {
+    width: 90%;    
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding: .75vw 0vw .75vw 0vw;
+    font-family: 'Oswald', sans-serif;
+} 
+
+.navbarItem {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbarLink {
+    color: rgb(224, 223, 223);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: .9vw;
+    width: 13vw;
+    font-size: 1.2vw;
+    padding: .7vw;
+    font-weight: bold;
+}
+
+.navbarLink:hover {
+    color: silver;
+}
+
+.logo {
+    width: 10vw;
+    margin: 0vw 0vw 0vw .25vw;
+    font-size: 1.85vw;
+}
+

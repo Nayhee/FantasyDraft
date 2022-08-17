@@ -6,6 +6,7 @@ import ApplicationViews from "./ApplicationViews";
 function App() {
   return (
     <Router>
+      <Header />
       <ApplicationViews />
     </Router>
   );
